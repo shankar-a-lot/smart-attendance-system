@@ -1,0 +1,25 @@
+# Python ignores
+backend/venv/
+venv/
+**/venv/
+__pycache__/
+**/**/__pycache__/
+*.py[cod]
+backend/attendance.db
+*.db
+*.sqlite3
+
+# Node / Frontend ignores
+node_modules/
+**/node_modules/
+frontend/dist/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & IDE
+.env
+.vscode/
+.idea/
+.DS_Store
