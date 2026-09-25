@@ -102,6 +102,12 @@ Markdown
 | **Excused vs. Absent** | Excused absences (medical certificates, institutional deputation) count neutrally or positively, separate from unexcused truancies. |
 
 ---
+## 💡 Engineering Notes (Key Choices)
+- **Why SQLite & FastAPI:** Fast setup, zero configuration required, and built-in interactive Swagger docs at `/docs` to test endpoints quickly.
+- **Why Tailwind CSS:** Allowed rapid styling for alerts and status bars without writing hundreds of lines of custom CSS.
+- **Deficit Calculation:** Handled consecutive future sessions properly so students get an accurate count instead of a rough estimate.
+
+---
 
 ## ⚡ Quickstart & Local Setup
 
